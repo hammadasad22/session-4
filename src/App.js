@@ -11,7 +11,7 @@ function App() {
       <h1>Have a Good {isDay ? 'Morning' : 'Night'}</h1>
       <Message counter={count}/>
       <br />
-      <button onClick={() => setCount(count++)}>Update counter</button>
+      <button onClick={() => setCount(++count)}>Update counter</button>
       <button onClick={() => setisDay(!isDay)}>Switch Day</button>
     </div>
   )
